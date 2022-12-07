@@ -22,5 +22,8 @@ func main() {
 	grpcClient := pb.NewCalculatorServiceClient(conn)
 
 	// doSum(grpcClient)
-	doPrime(grpcClient)
+	// doPrime(grpcClient)
+	// doAvg(grpcClient)
+	// doMax(grpcClient)
+	doSqrt(grpcClient, -4)
 }
